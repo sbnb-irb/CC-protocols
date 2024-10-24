@@ -32,10 +32,6 @@ In the **Chemical Checker Protocols Repository**, we illustrate the functioning 
 ### Folders and Files
 - `notebooks`: iPython notebooks (4) for the integration of new bioactivity data using the defined data curation pipeline.
 - `data`: Input bioactivity data.
-- `local_CC_B1_example`: Generated signatures for the new version of the B1 CC space organized in the classical CC data architecture.
-- `local_CC_D1_example`: Generated signatures for the new version of the D1 CC space organized in the classical CC data architecture.
-- `local_CC_D6_example`: Generated signatures for the new D6 CC space organized in the classical CC data architecture.
-- `local_CC_M1_example`: Generated signatures for the new M1 CC space organized in the classical CC data architecture.
 
 The local directories of the CC are divided in full and reference sets of compounds. The full directory contains the computed signatures (from 0 to III) of the complete sets of small molecules for each CC space. The reference set includes a non-redundant subset of the data, computed using the distance matrix among all compounds. 
 
